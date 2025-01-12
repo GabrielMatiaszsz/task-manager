@@ -9,6 +9,7 @@ import wave
 TASKS_FILE = "tasks.json"
 AUDIO_DIR = "audio_tasks"
 
+
 # Verifica e cria o diretório de áudios
 if not os.path.exists(AUDIO_DIR):
     os.makedirs(AUDIO_DIR)
